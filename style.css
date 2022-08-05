@@ -16,14 +16,27 @@ body{
 }
 #nav-list{
     margin-top: 30px;
-    
+    vertical-align: middle;
 }
 #nav-list > li > a{
     color: black;
     text-align: center;
     
 }
+#nav-list > li > a:hover{
+    border: 0;
+    background-color: wheat;
+}
+
 .box{
     background-color: gray;
+    padding: 20px;
+}
+.box2{
+    background-color: rgb(150, 135, 135);
+    padding: 20px;
+}
+.box3{
+    background-color: rgb(94, 74, 74);
     padding: 20px;
 }
